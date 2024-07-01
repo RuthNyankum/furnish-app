@@ -4,5 +4,6 @@
 
 
 import heroBg from "./images/hero2.png"
+import aboutImage from "./images/hero1.png"
 
-export { heroBg }
+export { heroBg,aboutImage }
