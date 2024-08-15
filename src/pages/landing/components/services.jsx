@@ -8,11 +8,14 @@ const Services = () => {
         return (
           <div
             key={index}
-            className="py-10"
+            className="p-10"
             style={{ backgroundColor: service.bgColor }}
           >
-            <span>
-              <Handshake className="pl-7 h-14 w-14" />
+            <span
+              className="w-fit p-2 rounded-full text-white"
+              style={{ backgroundColor: service.iconBg }}
+            >
+              {service.icon}
             </span>
             <h3 className="px-7 pb-3 pt-1 text-[24px] font-bold">
               {service.title}

@@ -18,7 +18,7 @@ const overlayTexts = [
 
 const Collection = () => {
   return (
-    <div className="h-[50vh]">
+    <div>
       <CollectionComponent images={images} overlayTexts={overlayTexts} />
     </div>
   );

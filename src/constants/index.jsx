@@ -1,4 +1,4 @@
-import { Handshake } from 'lucide-react';
+import { BedDoubleIcon, Handshake, Headset, SofaIcon } from 'lucide-react';
 
 const K = {
   NAVLINKS: [
@@ -25,15 +25,15 @@ const K = {
       title: 'Amazing Deals',
       description:
         'Far far away, behind the word mountains, far from the countries Vokalia.',
-      Icon: <Handshake />,
+      icon: <Handshake />,
       bgColor: '#00717A',
-      iconBg: '#00545F',
+      iconBg: '#CB9696',
     },
     {
       title: 'Amazing Deals',
       description:
         'Far far away, behind the word mountains, far from the countries Vokalia.',
-      Icon: <Handshake />,
+      icon: <SofaIcon />,
       bgColor: '#00d1d3',
       iconBg: '#00545F',
     },
@@ -41,7 +41,7 @@ const K = {
       title: 'Amazing Deals',
       description:
         'Far far away, behind the word mountains, far from the countries Vokalia.',
-      Icon: <Handshake />,
+      icon: <BedDoubleIcon />,
       bgColor: '#00717A',
       iconBg: '#00545F',
     },
@@ -49,7 +49,7 @@ const K = {
       title: 'Amazing Deals',
       description:
         'Far far away, behind the word mountains, far from the countries Vokalia.',
-      Icon: <Handshake />,
+      icon: <Headset />,
       bgColor: '#00d1d3',
       iconBg: '#00545F',
     },
